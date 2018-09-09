@@ -39,9 +39,10 @@
     }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+  $red : red;
   ul,li{list-style: none}
   li{display: inline;margin-right:20px;border:1px solid #ccc;padding:10px}
-  .active{color: red}
+  .active{color: $red}
   li{cursor: pointer}
 </style>
